@@ -130,10 +130,10 @@ body {
 
 .footer {
     background-color: red;
-    height: 100px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
-    line-height: 100px;
+    line-height: 300px;
     vertical-align: bottom;
 }
 
