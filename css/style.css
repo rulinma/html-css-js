@@ -1,4 +1,4 @@
-*,span  {
+*, span  {
     border: 0;
     margin: 0;
     padding: 0;
@@ -68,18 +68,39 @@ body {
     background-color: grey;
     height: 100px;
     margin: 10 auto;
+    text-align: center;
+    line-height: 100px;
 }
 
 .content {
     background-color: green;
-    height: 100px;
     margin: 0 auto;
+    border: 1px , red;
+}
+
+/* list 内容显示 */
+.content ul li {
+    display: block;
+    float: left;
+    background-color: #333;
+    width: 190px;
+    height: 250px;
+    color:#e3e4e5;
+    margin: 10px;
+}
+
+/* 清除浮动 */
+.clear {
+    clear: both;
 }
 
 .footer {
-    background-color: blue;
-    height: 100px;
+    background-color: red;
+    height: 300px;
     margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: bottom;
 }
 
 
