@@ -1,3 +1,85 @@
-* {
+*,span  {
     border: 0;
+    margin: 0;
+    padding: 0;
 }
+
+
+body {
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: rgb(18, 18, 18);
+}
+
+.top {
+    display: block;
+    line-height: 30px;
+    /* font-size: 0; */
+}
+
+.nav {
+    width: 1190px;
+    background-color: #e3e4e5;
+    border-bottom: 1px #e3e4e5;
+    margin: auto;
+    /* 去除span之间的空格 */
+    font-size: 0;
+    height: 30px;
+}
+
+.nav .left {
+    display: inline-block;
+    background-color: hotpink;
+    /* 使用inline-block 才能转变block 从而有长度等概念 */
+    width: 190px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.nav .center {
+    display: inline-block;
+    background-color: #333;
+    /* 使用inline-block 才能转变block 从而有长度等概念 */
+    width: 800px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 转换ul li */
+.nav .center ul li {
+    display: inline-block;
+    background-color: indigo;
+    width: 190px;
+    color:#e3e4e5;
+}
+
+.nav .right {
+    /* display: block; */
+    display: inline-block;
+    background-color: hotpink;
+    /* 使用inline-block 才能转变block 从而有长度等概念 */
+    width: 200px;
+    text-align: right;
+    /* float: right; */
+    font-size: 14px;
+}
+
+
+.header {
+    background-color: red;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: green;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
