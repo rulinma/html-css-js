@@ -10,7 +10,7 @@ https://www.w3.org/TR/html5
 
 Hypertext Markup Language (HTML)：超文本标记语言
 
-1. 元素Element：HTML 元素以开始标签起始，HTML 元素以结束标签终止，元素的内容是开始标签与结束标签之间的内容，某些 HTML 元素具有空内容（empty content），空元素在开始标签中进行关闭（以开始标签的结束而结束），大多数 HTML 元素可拥有属性。元素和标签不是同一种概念。源代码中的标签用来标识元素的开始或结束，而元素是文档对象模型（DOM）中的一部分，文档对象模型会被浏览器渲染、展示为页面。https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element 
+1. 元素Element：HTML 元素以开始标签起始，HTML 元素以结束标签终止，元素的内容是开始标签与结束标签之间的内容，某些 HTML 元素具有空内容（empty content），空元素在开始标签中进行关闭（以开始标签的结束而结束），大多数 HTML 元素可拥有属性。元素和标签不是同一种概念。源代码中的标签用来标识元素的开始或结束，而元素是文档对象模型（DOM）中的一部分，文档对象模型会被浏览器渲染、展示为页面。https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element，https://developer.mozilla.org/zh-CN/docs/Glossary/Element。
 2. 标签Tag（html）：Tags are used to delimit the start and end of elements in the markup.
 3. 属性Attribute（id, title, onclick）：Attributes for an element are expressed inside the element's start tag.
 4. 元数据Meta（link，script，style，title）
