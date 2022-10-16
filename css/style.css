@@ -14,6 +14,7 @@ body {
     line-height: 30px;
     /* font-size: 0; */
 }
+
 .w {
     margin: auto;
     width: 1190px;
@@ -114,13 +115,13 @@ body {
     right: -5px;
 }
 .content ul li div {
-   padding: 10px;
+    padding: 10px;
 }
 .content ul li span {
-   padding: 10px;
+    padding: 10px;
 }
 .content ul li div {
-   padding: 10px;
+    padding: 10px;
 }
 
 /* 清除浮动 */
