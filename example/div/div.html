@@ -4,7 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .relative {
+        background-color: greenyellow;
+        height: 30px;
+      }
+
+      .absolute {
+        background-color: blueviolet;
+        height: 40px;
+        width: 100px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+      }
+
+      .fixed {
+        background-color: rgb(66, 63, 242);
+        height: 40px;
+        top: 10px;
+        right: 10px;
+        position: fixed;
+      }
+
+      .floater {
+        position: relative;
+        background-color: rgb(53, 236, 102);
+        left: 50px;
+        top: 30px;
+      }
+    </style>
+
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div style="height: 2rem; background-color: grey"></div>
+    <div class="static">
+      <div class="relative">a</div>
+      <div class="absolute">b</div>
+      <div class="fixed">c</div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio
+        minus cumque quos neque voluptatum? Nemo mollitia minima repudiandae
+        cupiditate dolores ducimus porro est deserunt exercitationem, sed eum
+        culpa. Tempora.
+      </div>
+      <div class="floater">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio
+        minus cumque quos neque voluptatum? Nemo mollitia minima repudiandae
+        cupiditate dolores ducimus porro est deserunt exercitationem, sed eum
+        culpa. Tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eaque optio minus cumque quos neque voluptatum? Nemo mollitia minima
+        repudiandae cupiditate dolores ducimus porro est deserunt
+        exercitationem, sed eum culpa. Tempora. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Eaque optio minus cumque quos neque
+        voluptatum? Nemo mollitia minima repudiandae cupiditate dolores ducimus
+        porro est deserunt exercitationem, sed eum culpa. Tempora. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Eaque optio minus cumque
+        quos neque voluptatum? Nemo mollitia minima repudiandae cupiditate
+        dolores ducimus porro est deserunt exercitationem, sed eum culpa.
+        Tempora.
+      </div>
+
+      <!-- <div class="floater">e</div> -->
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio
+        minus cumque quos neque voluptatum? Nemo mollitia minima repudiandae
+        cupiditate dolores ducimus porro est deserunt exercitationem, sed eum
+        culpa. Tempora.
+      </div>
+    </div>
+  </body>
 </html>
