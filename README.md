@@ -48,7 +48,7 @@ CSS removed the style formatting from the HTML page!
    4. 运算符
 2. 盒子模型（Box Model）
    1. 块级盒子（Block box）
-   2. 内敛盒子（Inline box）
+   2. 内联盒子（Inline box）
 3. display
    1. A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
    2. An inline element does not start on a new line and only takes up as much width as necessary.
