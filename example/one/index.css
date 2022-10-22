@@ -42,9 +42,9 @@ a {
 
 .nav ul li a {
     /* display: block; */
-    height: 22px;
+    height: 42px;
     padding: 0 10px;
-    line-height: 22px;
+    line-height: 42px;
     font-size: 18px;
     color: black;
 }
@@ -55,7 +55,48 @@ a {
 }
 
 .search {
-    float: left;
     display: block;
+    width: 298px;
+    float: left;
     background-color: red;
+    margin-left: 20px;
+    height: 42px;
+}
+
+.search input {
+    float: left;
+
+    width: 230px;
+    height: 38px;
+    border: 1px solid #00aaff;
+    border-right: 0;
+
+    color: grey;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-color: blueviolet;
+}
+
+.user {
+    float: right;
+    height: 42px;
+    line-height:42px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.name {
+    float: right;
+    line-height: 42px;
+    height: 42px;
+    text-align: center;
+    margin-left: 10px;
 }
